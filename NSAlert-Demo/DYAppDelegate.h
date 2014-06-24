@@ -11,5 +11,8 @@
 @interface DYAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)buttonShowDialog:(id)sender;
+- (IBAction)buttonShowDialog1:(id)sender;
+- (IBAction)buttonShowDialog2:(id)sender;
 
 @end

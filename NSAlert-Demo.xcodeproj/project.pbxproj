@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F45346195926810046B86C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F45345195926810046B86C /* Cocoa.framework */; };
+		30F45350195926810046B86C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F4534E195926810046B86C /* InfoPlist.strings */; };
+		30F45352195926810046B86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F45351195926810046B86C /* main.m */; };
+		30F45356195926810046B86C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 30F45354195926810046B86C /* Credits.rtf */; };
+		30F45359195926810046B86C /* DYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F45358195926810046B86C /* DYAppDelegate.m */; };
+		30F4535C195926810046B86C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4535A195926810046B86C /* MainMenu.xib */; };
+		30F4535E195926810046B86C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F4535D195926810046B86C /* Images.xcassets */; };
+		30F45365195926810046B86C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F45364195926810046B86C /* XCTest.framework */; };
+		30F45366195926810046B86C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F45345195926810046B86C /* Cocoa.framework */; };
+		30F4536E195926810046B86C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F4536C195926810046B86C /* InfoPlist.strings */; };
+		30F45370195926810046B86C /* NSAlert_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4536F195926810046B86C /* NSAlert_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F45367195926810046B86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F4533A195926810046B86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F45341195926810046B86C;
+			remoteInfo = "NSAlert-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F45342195926810046B86C /* NSAlert-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSAlert-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F45345195926810046B86C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		30F45348195926810046B86C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		30F45349195926810046B86C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		30F4534A195926810046B86C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30F4534D195926810046B86C /* NSAlert-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSAlert-Demo-Info.plist"; sourceTree = "<group>"; };
+		30F4534F195926810046B86C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F45351195926810046B86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30F45353195926810046B86C /* NSAlert-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAlert-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		30F45355195926810046B86C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		30F45357195926810046B86C /* DYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYAppDelegate.h; sourceTree = "<group>"; };
+		30F45358195926810046B86C /* DYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYAppDelegate.m; sourceTree = "<group>"; };
+		30F4535B195926810046B86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		30F4535D195926810046B86C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30F45363195926810046B86C /* NSAlert-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSAlert-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F45364195926810046B86C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30F4536B195926810046B86C /* NSAlert-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSAlert-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		30F4536D195926810046B86C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F4536F195926810046B86C /* NSAlert_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAlert_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F4533F195926810046B86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F45346195926810046B86C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F45360195926810046B86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F45366195926810046B86C /* Cocoa.framework in Frameworks */,
+				30F45365195926810046B86C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F45339195926810046B86C = {
+			isa = PBXGroup;
+			children = (
+				30F4534B195926810046B86C /* NSAlert-Demo */,
+				30F45369195926810046B86C /* NSAlert-DemoTests */,
+				30F45344195926810046B86C /* Frameworks */,
+				30F45343195926810046B86C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30F45343195926810046B86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F45342195926810046B86C /* NSAlert-Demo.app */,
+				30F45363195926810046B86C /* NSAlert-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F45344195926810046B86C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F45345195926810046B86C /* Cocoa.framework */,
+				30F45364195926810046B86C /* XCTest.framework */,
+				30F45347195926810046B86C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F45347195926810046B86C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F45348195926810046B86C /* AppKit.framework */,
+				30F45349195926810046B86C /* CoreData.framework */,
+				30F4534A195926810046B86C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		30F4534B195926810046B86C /* NSAlert-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				30F45357195926810046B86C /* DYAppDelegate.h */,
+				30F45358195926810046B86C /* DYAppDelegate.m */,
+				30F4535A195926810046B86C /* MainMenu.xib */,
+				30F4535D195926810046B86C /* Images.xcassets */,
+				30F4534C195926810046B86C /* Supporting Files */,
+			);
+			path = "NSAlert-Demo";
+			sourceTree = "<group>";
+		};
+		30F4534C195926810046B86C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F4534D195926810046B86C /* NSAlert-Demo-Info.plist */,
+				30F4534E195926810046B86C /* InfoPlist.strings */,
+				30F45351195926810046B86C /* main.m */,
+				30F45353195926810046B86C /* NSAlert-Demo-Prefix.pch */,
+				30F45354195926810046B86C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30F45369195926810046B86C /* NSAlert-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				30F4536F195926810046B86C /* NSAlert_DemoTests.m */,
+				30F4536A195926810046B86C /* Supporting Files */,
+			);
+			path = "NSAlert-DemoTests";
+			sourceTree = "<group>";
+		};
+		30F4536A195926810046B86C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F4536B195926810046B86C /* NSAlert-DemoTests-Info.plist */,
+				30F4536C195926810046B86C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F45341195926810046B86C /* NSAlert-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F45373195926810046B86C /* Build configuration list for PBXNativeTarget "NSAlert-Demo" */;
+			buildPhases = (
+				30F4533E195926810046B86C /* Sources */,
+				30F4533F195926810046B86C /* Frameworks */,
+				30F45340195926810046B86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSAlert-Demo";
+			productName = "NSAlert-Demo";
+			productReference = 30F45342195926810046B86C /* NSAlert-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30F45362195926810046B86C /* NSAlert-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F45376195926810046B86C /* Build configuration list for PBXNativeTarget "NSAlert-DemoTests" */;
+			buildPhases = (
+				30F4535F195926810046B86C /* Sources */,
+				30F45360195926810046B86C /* Frameworks */,
+				30F45361195926810046B86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F45368195926810046B86C /* PBXTargetDependency */,
+			);
+			name = "NSAlert-DemoTests";
+			productName = "NSAlert-DemoTests";
+			productReference = 30F45363195926810046B86C /* NSAlert-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F4533A195926810046B86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = danny;
+				TargetAttributes = {
+					30F45362195926810046B86C = {
+						TestTargetID = 30F45341195926810046B86C;
+					};
+				};
+			};
+			buildConfigurationList = 30F4533D195926810046B86C /* Build configuration list for PBXProject "NSAlert-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F45339195926810046B86C;
+			productRefGroup = 30F45343195926810046B86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F45341195926810046B86C /* NSAlert-Demo */,
+				30F45362195926810046B86C /* NSAlert-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F45340195926810046B86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F45350195926810046B86C /* InfoPlist.strings in Resources */,
+				30F4535E195926810046B86C /* Images.xcassets in Resources */,
+				30F45356195926810046B86C /* Credits.rtf in Resources */,
+				30F4535C195926810046B86C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F45361195926810046B86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F4536E195926810046B86C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F4533E195926810046B86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F45352195926810046B86C /* main.m in Sources */,
+				30F45359195926810046B86C /* DYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F4535F195926810046B86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F45370195926810046B86C /* NSAlert_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F45368195926810046B86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F45341195926810046B86C /* NSAlert-Demo */;
+			targetProxy = 30F45367195926810046B86C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30F4534E195926810046B86C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F4534F195926810046B86C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30F45354195926810046B86C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F45355195926810046B86C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		30F4535A195926810046B86C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F4535B195926810046B86C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		30F4536C195926810046B86C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F4536D195926810046B86C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F45371195926810046B86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30F45372195926810046B86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30F45374195926810046B86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSAlert-Demo/NSAlert-Demo-Prefix.pch";
+				INFOPLIST_FILE = "NSAlert-Demo/NSAlert-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30F45375195926810046B86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSAlert-Demo/NSAlert-Demo-Prefix.pch";
+				INFOPLIST_FILE = "NSAlert-Demo/NSAlert-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30F45377195926810046B86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSAlert-Demo.app/Contents/MacOS/NSAlert-Demo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSAlert-Demo/NSAlert-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSAlert-DemoTests/NSAlert-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30F45378195926810046B86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSAlert-Demo.app/Contents/MacOS/NSAlert-Demo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSAlert-Demo/NSAlert-Demo-Prefix.pch";
+				INFOPLIST_FILE = "NSAlert-DemoTests/NSAlert-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F4533D195926810046B86C /* Build configuration list for PBXProject "NSAlert-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F45371195926810046B86C /* Debug */,
+				30F45372195926810046B86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F45373195926810046B86C /* Build configuration list for PBXNativeTarget "NSAlert-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F45374195926810046B86C /* Debug */,
+				30F45375195926810046B86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30F45376195926810046B86C /* Build configuration list for PBXNativeTarget "NSAlert-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F45377195926810046B86C /* Debug */,
+				30F45378195926810046B86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F4533A195926810046B86C /* Project object */;
+}
